@@ -5,7 +5,7 @@ name = "Mamadou"
 country = "Mali"
 student = True
 university = "Faculty of Science of Bizerte"
-field = "Math - Computer Science"
+field = "Math - Computer Science" 
 
 print("Name:", name)
 print("Country:", country)
