@@ -42,3 +42,26 @@ nombre= int(input("Entrez un numero svp: "))
 while nombre > 0:
     print("Nombre positif:", nombre)
     nombre= int(input("Entrez un numero svp: "))
+
+# 2. The range() Function 
+# range(start, stop, step) 
+# start: where to begin 
+# stop: where to stop (excluded) 
+# step: how much to increment 
+for number in range(2, 21, 2): 
+  print(number) 
+  
+# 3. Calculating a Sum 
+# We can use a variable to accumulate values. 
+total = 0 
+for number in range(1, 101): 
+  total += number print(total) 
+# Output: 5050 
+
+# 4. Using Conditions Inside Loops 
+# We can combine for loops with if statements. 
+total = 0 
+for number in range(1, 51): 
+if number % 2 == 1: total += number 
+  print(total) 
+# Output: 625
